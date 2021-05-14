@@ -1,0 +1,159 @@
+body {
+	font-family: Calibri;
+	font-size: 20px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aa3939+5,dddddd+18 */
+	background: #aa3939; /* Old browsers */
+	background: -moz-linear-gradient(top,  #aa3939 5%, #dddddd 18%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #aa3939 5%,#dddddd 18%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #aa3939 5%,#dddddd 18%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa3939', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	min-height:1000px;
+}
+
+#fejlec_tartalom{
+	height:auto;
+	position: fixed;
+	top:0px;
+	left:0px;
+	background-color:rgb(170, 90, 90);
+	width:100%;
+	font-size: 35px;
+	z-index: 1;
+	
+}
+
+#fejlec{
+	height:auto;
+	width:800px;
+	margin:0 auto;
+	padding:0;
+	float:right;
+}
+
+.menu{
+	float:left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 15px;
+	width: 180px;
+}
+
+.menu_aktualis{
+	
+}
+
+.menu:hover{
+	background-color: #FFAAAA;
+}
+
+#aktualis{
+	background-color:rgb(170, 57, 57);
+}
+
+#aktualis:hover{
+	background-color: #FFAAAA;
+}
+
+#tarolo{
+	top:70px;
+	position: relative;
+	width: 1000px;
+	margin: 0 auto 100px auto;
+	min-height: 500px;
+	clear:both;
+}
+
+#cim{
+	position:relative;
+	width: 100%;
+	text-align: center;
+}
+
+#kezdokep{
+	float:left;
+	margin: 15px;
+}
+
+#kezdokep img{
+	width:250px;
+}
+
+#row{
+	position:relative;
+	float:none;
+	display:block;
+	width:100%;
+	height:auto;
+	clear:both;
+}
+
+#galeria_box{
+	width:625px;
+	position:relative;
+	margin: 0 auto;
+	clear:both;
+	height: 4150px;
+}
+
+.galeria {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 300px;
+}
+
+.galeria img {
+	width: 300px;
+	height: auto;
+}
+
+.leiras {
+	padding: 15px;
+	text-align: center;
+}
+
+#forras{
+	color: #1E5799;
+}
+
+#forras:hover{
+	color: #aa3939;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: darkred;
+}
+
+a{
+	text-decoration:none;
+}
+
+.adatok{
+	width:600px;
+	margin: 0 auto;
+}
+
+.row label{
+	margin:0 0 0 30px;
+}
+
+#magyarazat{
+	width: 500px;
+	float:left;
+}
+
+#tiszta{
+	clear:both;
+}
+
+#terv_kepe img{
+	width:450px;
+}
